@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Preset Version="1.0.0">
+  <Content Processor="Interface">
+    <Control type="ScriptSliderPack" id="LFO3SLIDERS" value="15" data="64....f+b8nv8iT350Oov0S+....8ydT3xORgqG+jBWO7CRgquO1iB29PJb85ilYloOOJbc9PgqG6yGEtxOJb8X+."/>
+    <Control type="ScriptSliderPack" id="LFO3SLIDERS1" value="14" data="64....f+....................9C........f+.........3O...................f+.........3O......"/>
+    <Control type="ScriptButton" id="FILTER LFO ON" value="1"/>
+    <Control type="ScriptSlider" id="FILTER LFO FREQUENCY" value="8"/>
+    <Control type="ScriptSlider" id="FILTER LFO SMOOTH" value="427.54"/>
+    <Control type="ScriptSlider" id="FILTER LFO PHASE" value="0"/>
+    <Control type="ScriptSlider" id="FILTER LFO SMOOTH1" value="0"/>
+    <Control type="ScriptButton" id="FILTER LFO LOOP" value="1"/>
+    <Control type="ScriptButton" id="FILTER LFO KEYTRIGGER" value="0"/>
+    <Control type="ScriptButton" id="GAIN LFO ON" value="1"/>
+    <Control type="ScriptButton" id="GAIN LFO LOOP" value="1"/>
+    <Control type="ScriptSlider" id="GAIN LFO SMOOTH" value="0"/>
+    <Control type="ScriptSlider" id="GAIN LFO PHASE" value="0"/>
+    <Control type="ScriptSlider" id="GAIN LFO FREQUENCY" value="14"/>
+    <Control type="ScriptSlider" id="GAIN LFO FADE" value="0"/>
+    <Control type="ScriptButton" id="GAIN LFO KEYTRIGGER" value="0"/>
+    <Control type="ScriptComboBox" id="FilterSelect" value="8"/>
+    <Control type="ScriptButton" id="FILTER ON" value="1"/>
+    <Control type="ScriptSlider" id="FILTER FREQUENCY" value="20000"/>
+    <Control type="ScriptSlider" id="FILTER RESONANCE" value="0.5"/>
+    <Control type="ScriptSlider" id="FILTER GAIN" value="-18"/>
+    <Control type="ScriptSlider" id="FILTER BIPOLAR" value="0"/>
+    <Control type="ScriptSlider" id="FILTER LFO INTENSITY" value="1"/>
+    <Control type="ScriptSlider" id="GAIN LFO INTENSITY" value="1"/>
+    <Control type="ScriptSlider" id="VOLUME" value="0"/>
+    <Control type="ScriptSlider" id="IMAGE" value="116"/>
+  </Content>
+  <MidiAutomation/>
+  <MPEData Enabled="0"/>
+</Preset>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Preset Version="1.0.0">
+  <Content Processor="Interface">
+    <Control type="ScriptSliderPack" id="LFO3SLIDERS" value="12" data="64......................................................................................."/>
+    <Control type="ScriptSliderPack" id="LFO3SLIDERS1" value="14" data="64......................................................................................."/>
+    <Control type="ScriptButton" id="FILTER LFO ON" value="0"/>
+    <Control type="ScriptButton" id="FILTER LFO LOOP" value="0"/>
+    <Control type="ScriptSlider" id="FILTER LFO FREQUENCY" value="0"/>
+    <Control type="ScriptSlider" id="FILTER LFO SMOOTH" value="0"/>
+    <Control type="ScriptSlider" id="FILTER LFO PHASE" value="0"/>
+    <Control type="ScriptButton" id="FILTER LFO FREQMOD OM" value="0"/>
+    <Control type="ScriptComboBox" id="FILTER LFO FREQMOD WAVE" value="2"/>
+    <Control type="ScriptSlider" id="FILTER LFO FREQMOD FREQUENCY" value="0"/>
+    <Control type="ScriptSlider" id="FILTER LFO FREQMOD SMOOTH" value="0"/>
+    <Control type="ScriptSlider" id="FILTER LFO FREQMOD PHASE" value="0"/>
+    <Control type="ScriptButton" id="GAIN LFO ON" value="0"/>
+    <Control type="ScriptButton" id="GAIN LFO LOOP" value="0"/>
+    <Control type="ScriptSlider" id="GAIN LFO SMOOTH" value="0"/>
+    <Control type="ScriptSlider" id="GAIN LFO PHASE" value="0"/>
+    <Control type="ScriptSlider" id="GAIN LFO FREQUENCY" value="0"/>
+    <Control type="ScriptButton" id="GAIN LFO FREQMOD ON" value="0"/>
+    <Control type="ScriptComboBox" id="GAIN LFO FEREQMOD WAVE" value="2"/>
+    <Control type="ScriptSlider" id="GAIN LFO FREQMOD FREQUENCY" value="0"/>
+    <Control type="ScriptSlider" id="GAIN LFO FREQMOD SNOOTH" value="0"/>
+    <Control type="ScriptSlider" id="GAIN LFO FREQMOD PHASE" value="0"/>
+    <Control type="ScriptComboBox" id="FilterSelect" value="1"/>
+    <Control type="ScriptButton" id="FILTER ON" value="0"/>
+    <Control type="ScriptSlider" id="FILTER FREQUENCY" value="20"/>
+    <Control type="ScriptSlider" id="FILTER RESONANCE" value="0.3"/>
+    <Control type="ScriptSlider" id="FILTER GAIN" value="-18"/>
+    <Control type="ScriptSlider" id="FILTER BIPOLAR" value="-1"/>
+    <Control type="ScriptSlider" id="FILTER LFO INTENSITY" value="0"/>
+    <Control type="ScriptSlider" id="GAIN LFO INTENSITY" value="0"/>
+  </Content>
+  <MidiAutomation/>
+  <MPEData Enabled="0"/>
+</Preset>

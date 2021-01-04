@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Processor Type="SynthChain" ID="OT FUNIMATOR" Bypassed="0" Gain="1" Balance="0"
+           VoiceLimit="64" KillFadeTime="20" IconColour="0" packageName=""
+           BuildVersion="650">
+  <ChildProcessors>
+    <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
+      <ChildProcessors>
+        <Processor Type="ScriptProcessor" ID="Interface" Bypassed="0">
+          <ChildProcessors/>
+          <Content>
+            <Control type="ScriptSliderPack" id="LFO3SLIDERS" value="11" data="64....f+Lb8n8CtdTzOJb8H+v0iB7Cov0qOOJbc9jBWO3yiBWOOov0C9....5CEtdrOw0iB+rGEt7SJb8zOeT3Z+."/>
+            <Control type="ScriptSliderPack" id="LFO3SLIDERS1" value="5" data="64.ov0i8v0iB4iT35oO8nv09DWOJ7ydT3xOw0iR+XlYl8C...3OtdTX+....8i8nvwOOJb89rGEt5SOJbkOov0i8."/>
+            <Control type="ScriptButton" id="FILTER LFO ON" value="1"/>
+            <Control type="ScriptSlider" id="FILTER LFO FREQUENCY" value="8"/>
+            <Control type="ScriptSlider" id="FILTER LFO SMOOTH" value="456.52"/>
+            <Control type="ScriptSlider" id="FILTER LFO PHASE" value="0"/>
+            <Control type="ScriptSlider" id="FILTER LFO SMOOTH1" value="0"/>
+            <Control type="ScriptButton" id="FILTER LFO LOOP" value="1"/>
+            <Control type="ScriptButton" id="FILTER LFO KEYTRIGGER" value="0"/>
+            <Control type="ScriptButton" id="GAIN LFO ON" value="1"/>
+            <Control type="ScriptButton" id="GAIN LFO LOOP" value="1"/>
+            <Control type="ScriptSlider" id="GAIN LFO SMOOTH" value="0"/>
+            <Control type="ScriptSlider" id="GAIN LFO PHASE" value="0"/>
+            <Control type="ScriptSlider" id="GAIN LFO FREQUENCY" value="11"/>
+            <Control type="ScriptSlider" id="GAIN LFO FADE" value="0"/>
+            <Control type="ScriptButton" id="GAIN LFO KEYTRIGGER" value="0"/>
+            <Control type="ScriptComboBox" id="FilterSelect" value="1"/>
+            <Control type="ScriptButton" id="FILTER ON" value="1"/>
+            <Control type="ScriptSlider" id="FILTER FREQUENCY" value="7100"/>
+            <Control type="ScriptSlider" id="FILTER RESONANCE" value="0.5"/>
+            <Control type="ScriptSlider" id="FILTER GAIN" value="-18"/>
+            <Control type="ScriptSlider" id="FILTER BIPOLAR" value="0"/>
+            <Control type="ScriptSlider" id="FILTER LFO INTENSITY" value="1"/>
+            <Control type="ScriptSlider" id="GAIN LFO INTENSITY" value="1"/>
+            <Control type="ScriptSlider" id="VOLUME" value="-23.6"/>
+            <Control type="ScriptSlider" id="IMAGE" value="1.49012e-06"/>
+          </Content>
+          <UIData Source="OT FUNIMATORUIData"/>
+        </Processor>
+      </ChildProcessors>
+    </Processor>
+    <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1">
+      <ChildProcessors/>
+    </Processor>
+    <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="1" Intensity="0">
+      <ChildProcessors/>
+    </Processor>
+    <Processor Type="EffectChain" ID="FX" Bypassed="0">
+      <ChildProcessors>
+        <Processor Type="PolyphonicFilter" ID="FILTER" Bypassed="0" Gain="-18" Frequency="7100"
+                   Q="0.5" Mode="9" Quality="8" BipolarIntensity="0">
+          <ChildProcessors>
+            <Processor Type="ModulatorChain" ID="Frequency Modulation" Bypassed="0"
+                       Intensity="1">
+              <ChildProcessors>
+                <Processor Type="LFO" ID="FILTERLFO" Bypassed="0" Intensity="1" Frequency="8"
+                           FadeIn="0" WaveformType="7" Legato="0" TempoSync="1" SmoothingTime="456.52"
+                           LoopEnabled="1" PhaseOffset="0" CustomWaveform="" StepData="64....f+Lb8n8CtdTzOJb8H+v0iB7Cov0qOOJbc9jBWO3yiBWOOov0C9....5CEtdrOw0iB+rGEt7SJb8zOeT3Z+.">
+                  <ChildProcessors>
+                    <Processor Type="ModulatorChain" ID="LFO Intensity Mod" Bypassed="0" Intensity="1">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="LFO Frequency Mod" Bypassed="0" Intensity="1">
+                      <ChildProcessors>
+                        <Processor Type="LFO" ID="FILTERLFO_FREQMOD" Bypassed="1" Intensity="1"
+                                   Frequency="0" FadeIn="0" WaveformType="4" Legato="0" TempoSync="1"
+                                   SmoothingTime="0" LoopEnabled="1" PhaseOffset="0" CustomWaveform=""
+                                   StepData="64....f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+.">
+                          <ChildProcessors>
+                            <Processor Type="ModulatorChain" ID="LFO Intensity Mod" Bypassed="0" Intensity="1">
+                              <ChildProcessors/>
+                            </Processor>
+                            <Processor Type="ModulatorChain" ID="LFO Frequency Mod" Bypassed="0" Intensity="1">
+                              <ChildProcessors/>
+                            </Processor>
+                          </ChildProcessors>
+                        </Processor>
+                      </ChildProcessors>
+                    </Processor>
+                  </ChildProcessors>
+                </Processor>
+              </ChildProcessors>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="Bipolar Freq Modulation" Bypassed="0"
+                       Intensity="1">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="Q Modulation" Bypassed="0" Intensity="1">
+              <ChildProcessors/>
+            </Processor>
+          </ChildProcessors>
+        </Processor>
+        <Processor Type="SimpleGain" ID="GAINandPAN" Bypassed="0" Gain="-23.6" Delay="0"
+                   Width="1.49012e-06" Balance="14" InvertPolarity="0">
+          <ChildProcessors>
+            <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1">
+              <ChildProcessors>
+                <Processor Type="LFO" ID="GAINLFO" Bypassed="0" Intensity="1" Frequency="11"
+                           FadeIn="0" WaveformType="7" Legato="0" TempoSync="1" SmoothingTime="0"
+                           LoopEnabled="1" PhaseOffset="0" CustomWaveform="" StepData="64.ov0i8v0iB4iT35oO8nv09DWOJ7ydT3xOw0iR+XlYl8C...3OtdTX+....8i8nvwOOJb89rGEt5SOJbkOov0i8.">
+                  <ChildProcessors>
+                    <Processor Type="ModulatorChain" ID="LFO Intensity Mod" Bypassed="0" Intensity="1">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="LFO Frequency Mod" Bypassed="0" Intensity="1">
+                      <ChildProcessors>
+                        <Processor Type="LFO" ID="GAINLFO_FREQMOD" Bypassed="1" Intensity="1" Frequency="0"
+                                   FadeIn="0" WaveformType="2" Legato="0" TempoSync="1" SmoothingTime="0"
+                                   LoopEnabled="1" PhaseOffset="0" CustomWaveform="" StepData="64....f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+.">
+                          <ChildProcessors>
+                            <Processor Type="ModulatorChain" ID="LFO Intensity Mod" Bypassed="0" Intensity="1">
+                              <ChildProcessors/>
+                            </Processor>
+                            <Processor Type="ModulatorChain" ID="LFO Frequency Mod" Bypassed="0" Intensity="1">
+                              <ChildProcessors/>
+                            </Processor>
+                          </ChildProcessors>
+                        </Processor>
+                      </ChildProcessors>
+                    </Processor>
+                  </ChildProcessors>
+                </Processor>
+              </ChildProcessors>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="Delay Modulation" Bypassed="0" Intensity="1">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="Width Modulation" Bypassed="0" Intensity="1">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="Pan Modulation" Bypassed="0" Intensity="1">
+              <ChildProcessors/>
+            </Processor>
+          </ChildProcessors>
+          <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+        </Processor>
+        <Processor Type="Analyser" ID="ANALYSER" Bypassed="0" BufferSize="16384"
+                   PreviewType="3">
+          <ChildProcessors/>
+          <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+        </Processor>
+      </ChildProcessors>
+    </Processor>
+  </ChildProcessors>
+  <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+  <macro_controls>
+    <macro name="Macro 1" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 2" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 3" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 4" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 5" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 6" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 7" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 8" value="0.0" midi_cc="-1"/>
+  </macro_controls>
+  <MidiAutomation/>
+  <MPEData Enabled="0"/>
+</Processor>

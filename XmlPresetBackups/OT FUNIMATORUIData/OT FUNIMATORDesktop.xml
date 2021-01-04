@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptPanel" id="MAINPANEL" x="0" y="0" width="922" height="399"
+             bgColour="16777215" itemColour="4284637794" borderRadius="0"
+             itemColour2="1275068416" textColour="794930103" borderSize="3">
+    <Component type="ScriptPanel" id="BACKGROUND COLORING PANEL" x="1" y="1"
+               width="920" height="399" parentComponent="MAINPANEL" borderRadius="0"
+               borderSize="3" itemColour="2754818862" itemColour2="3463081061"
+               bgColour="1038476773" textColour="469762047"/>
+    <Component type="ScriptPanel" id="SLIDERS BACKGROUND" x="126" y="7" width="603"
+               height="386" parentComponent="MAINPANEL" borderRadius="1" borderSize="6"
+               bgColour="16777215" textColour="4278190080"/>
+    <Component type="ScriptLabel" id="FLFO LOOP Label4" x="736" y="37" parentComponent="MAINPANEL"
+               width="177" height="356" text="" itemColour="4037058720" enabled="0"
+               editable="0" bgColour="742026882"/>
+    <Component type="ScriptLabel" id="BACKGROUNDS 1" x="125" y="10" parentComponent="MAINPANEL"
+               width="600" height="384" bgColour="1740739" itemColour="4146760"
+               itemColour2="16777215" textColour="16777215" enabled="0" editable="0">
+      <Component type="ScriptPanel" id="ColorPanel1" x="6" y="3" width="595" height="185"
+                 parentComponent="BACKGROUNDS 1" borderRadius="4" bgColour="16777215"
+                 itemColour="1626183167" itemColour2="2349478210" textColour="2555992409"
+                 borderSize="4"/>
+      <Component type="ScriptPanel" id="ColorPanel2" x="6" y="197" width="595"
+                 height="182" parentComponent="BACKGROUNDS 1" borderRadius="4"
+                 bgColour="16777215" itemColour="2349478210" itemColour2="1626183167"
+                 textColour="667970" borderSize="4"/>
+      <Component type="ScriptLabel" id="ScriptLabel3" x="6" y="2" width="591"
+                 height="376" parentComponent="BACKGROUNDS 1" bgColour="940793433"
+                 textColour="16777215" itemColour2="4278190080" itemColour="2307222893"
+                 editable="0"/>
+      <Component type="ScriptLabel" id="Label1" x="7" y="3" parentComponent="BACKGROUNDS 1"
+                 width="34" height="186" bgColour="669378021" itemColour="922677754"
+                 textColour="16777215" enabled="0" editable="0"/>
+      <Component type="ScriptLabel" id="Label2" x="43" y="3" parentComponent="BACKGROUNDS 1"
+                 width="35" height="186" bgColour="585491941" itemColour="922677754"
+                 textColour="16777215" text="Label1" enabled="0" editable="0"/>
+      <Component type="ScriptLabel" id="Label4" x="80" y="3" parentComponent="BACKGROUNDS 1"
+                 width="35" height="186" bgColour="585491941" itemColour="922677754"
+                 textColour="16777215" text="Label1" enabled="0" editable="0"/>
+      <Component type="ScriptLabel" id="Label3" x="117" y="3" parentComponent="BACKGROUNDS 1"
+                 width="36" height="186" bgColour="585491941" itemColour="922677754"
+                 textColour="16777215" text="Label1" enabled="0" editable="0"/>
+      <Component type="ScriptLabel" id="Label5" x="155" y="3" parentComponent="BACKGROUNDS 1"
+                 width="35" height="186" bgColour="585491941" itemColour="922677754"
+                 textColour="16777215" text="Label1" enabled="0" editable="0"/>
+      <Component type="ScriptLabel" id="Label6" x="192" y="3" parentComponent="BACKGROUNDS 1"
+                 width="35" height="186" bgColour="585491941" itemColour="922677754"
+                 textColour="16777215" text="Label1" enabled="0" editable="0"/>
+      <Component type="ScriptLabel" id="Label8" x="229" y="3" parentComponent="BACKGROUNDS 1"
+                 width="35" height="186" bgColour="585491941" itemColour="922677754"
+                 textColour="16777215" text="Label1" enabled="0" editable="0"/>
+      <Component type="ScriptLabel" id="Label7" x="266" y="3" parentComponent="BACKGROUNDS 1"
+                 width="36" height="186" bgColour="585491941" itemColour="922677754"
+                 textColour="16777215" text="Label1" enabled="0" editable="0"/>
+      <Component type="ScriptLabel" id="Label13" x="304" y="3" parentComponent="BACKGROUNDS 1"
+                 width="35" height="186" bgColour="585491941" itemColour="922677754"
+                 textColour="16777215" text="Label1" enabled="0" editable="0"/>
+      <Component type="ScriptLabel" id="Label14" x="341" y="3" parentComponent="BACKGROUNDS 1"
+                 width="35" height="186" bgColour="585491941" itemColour="922677754"
+                 textColour="16777215" text="Label1" enabled="0" editable="0"/>
+      <Component type="ScriptLabel" id="Label16" x="378" y="3" parentComponent="BACKGROUNDS 1"
+                 width="35" height="186" bgColour="585491941" itemColour="922677754"
+                 textColour="16777215" text="Label1" enabled="0" editable="0"/>
+      <Component type="ScriptLabel" id="Label15" x="415" y="3" parentComponent="BACKGROUNDS 1"
+                 width="36" height="186" bgColour="585491941" itemColour="922677754"
+                 textColour="16777215" text="Label1" enabled="0" editable="0"/>
+      <Component type="ScriptLabel" id="Label9" x="453" y="3" parentComponent="BACKGROUNDS 1"
+                 width="35" height="186" bgColour="585491941" itemColour="922677754"
+                 textColour="16777215" text="Label1" enabled="0" editable="0"/>
+      <Component type="ScriptLabel" id="Label10" x="490" y="3" parentComponent="BACKGROUNDS 1"
+                 width="35" height="186" bgColour="585491941" itemColour="922677754"
+                 textColour="16777215" text="Label1" enabled="0" editable="0"/>
+      <Component type="ScriptLabel" id="Label12" x="527" y="3" parentComponent="BACKGROUNDS 1"
+                 width="35" height="186" bgColour="585491941" itemColour="922677754"
+                 textColour="16777215" text="Label1" enabled="0" editable="0"/>
+      <Component type="ScriptLabel" id="Label11" x="564" y="3" parentComponent="BACKGROUNDS 1"
+                 width="35" height="186" bgColour="585491941" itemColour="922677754"
+                 textColour="16777215" text="Label1" enabled="0" editable="0"/>
+      <Component type="ScriptLabel" id="Label17" x="563" y="193" parentComponent="BACKGROUNDS 1"
+                 width="35" height="186" bgColour="585491941" itemColour="922677754"
+                 textColour="16777215" text="Label1" enabled="0" editable="0"/>
+      <Component type="ScriptLabel" id="Label18" x="6" y="193" parentComponent="BACKGROUNDS 1"
+                 width="34" height="186" bgColour="585491941" itemColour="922677754"
+                 textColour="16777215" text="Label1" enabled="0" editable="0"/>
+      <Component type="ScriptLabel" id="Label19" x="42" y="193" parentComponent="BACKGROUNDS 1"
+                 width="35" height="186" bgColour="585491941" itemColour="922677754"
+                 textColour="16777215" text="Label1" enabled="0" editable="0"/>
+      <Component type="ScriptLabel" id="Label20" x="79" y="193" parentComponent="BACKGROUNDS 1"
+                 width="35" height="186" bgColour="585491941" itemColour="922677754"
+                 textColour="16777215" text="Label1" enabled="0" editable="0"/>
+      <Component type="ScriptLabel" id="Label21" x="116" y="193" parentComponent="BACKGROUNDS 1"
+                 width="36" height="186" bgColour="585491941" itemColour="922677754"
+                 textColour="16777215" text="Label1" enabled="0" editable="0"/>
+      <Component type="ScriptLabel" id="Label22" x="154" y="193" parentComponent="BACKGROUNDS 1"
+                 width="35" height="186" bgColour="585491941" itemColour="922677754"
+                 textColour="16777215" text="Label1" enabled="0" editable="0"/>
+      <Component type="ScriptLabel" id="Label23" x="191" y="193" parentComponent="BACKGROUNDS 1"
+                 width="35" height="186" bgColour="585491941" itemColour="922677754"
+                 textColour="16777215" text="Label1" enabled="0" editable="0"/>
+      <Component type="ScriptLabel" id="Label24" x="228" y="193" parentComponent="BACKGROUNDS 1"
+                 width="35" height="186" bgColour="585491941" itemColour="922677754"
+                 textColour="16777215" text="Label1" enabled="0" editable="0"/>
+      <Component type="ScriptLabel" id="Label25" x="265" y="193" parentComponent="BACKGROUNDS 1"
+                 width="36" height="186" bgColour="585491941" itemColour="922677754"
+                 textColour="16777215" text="Label1" enabled="0" editable="0"/>
+      <Component type="ScriptLabel" id="Label26" x="303" y="193" parentComponent="BACKGROUNDS 1"
+                 width="35" height="186" bgColour="585491941" itemColour="922677754"
+                 textColour="16777215" text="Label1" enabled="0" editable="0"/>
+      <Component type="ScriptLabel" id="Label27" x="340" y="193" parentComponent="BACKGROUNDS 1"
+                 width="35" height="186" bgColour="585491941" itemColour="922677754"
+                 textColour="16777215" text="Label1" enabled="0" editable="0"/>
+      <Component type="ScriptLabel" id="Label28" x="377" y="193" parentComponent="BACKGROUNDS 1"
+                 width="35" height="186" bgColour="585491941" itemColour="922677754"
+                 textColour="16777215" text="Label1" enabled="0" editable="0"/>
+      <Component type="ScriptLabel" id="Label29" x="414" y="193" parentComponent="BACKGROUNDS 1"
+                 width="36" height="186" bgColour="585491941" itemColour="922677754"
+                 textColour="16777215" text="Label1" enabled="0" editable="0"/>
+      <Component type="ScriptLabel" id="Label30" x="452" y="193" parentComponent="BACKGROUNDS 1"
+                 width="35" height="186" bgColour="585491941" itemColour="922677754"
+                 textColour="16777215" text="Label1" enabled="0" editable="0"
+                 itemColour2="4279308561"/>
+      <Component type="ScriptLabel" id="Label31" x="489" y="193" parentComponent="BACKGROUNDS 1"
+                 width="35" height="186" bgColour="585491941" itemColour="922677754"
+                 textColour="16777215" text="Label1" enabled="0" editable="0"
+                 itemColour2="4279308561"/>
+      <Component type="ScriptLabel" id="Label32" x="526" y="193" parentComponent="BACKGROUNDS 1"
+                 width="35" height="186" bgColour="585491941" itemColour="922677754"
+                 textColour="16777215" text="Label1" enabled="0" editable="0"
+                 itemColour2="4279308561"/>
+    </Component>
+    <Component type="ScriptPanel" id="BACKGROUNDS 2" x="8" y="10" width="189"
+               height="381" parentComponent="MAINPANEL" borderRadius="1" borderSize="1"
+               bgColour="16777215" itemColour="0" itemColour2="10395294" textColour="16777215">
+      <Component type="ScriptLabel" id="ScriptLabel4" x="9" y="35" width="22"
+                 height="133" parentComponent="BACKGROUNDS 2" itemColour="179549107"
+                 bgColour="716420019" itemColour2="4278190080" textColour="16777215"
+                 editable="0" fontName="Default" fontStyle="Bold"/>
+      <Component type="ScriptLabel" id="ScriptLabel5" x="42" y="35" width="14"
+                 height="133" parentComponent="BACKGROUNDS 2" itemColour="179549107"
+                 bgColour="716420019" itemColour2="4278190080" textColour="16777215"
+                 text="ScriptLabel4" editable="0" fontName="Default" fontStyle="Bold"/>
+      <Component type="ScriptLabel" id="ScriptLabel6" x="68" y="35" width="14"
+                 height="133" parentComponent="BACKGROUNDS 2" itemColour="179549107"
+                 bgColour="716420019" itemColour2="4278190080" textColour="16777215"
+                 text="ScriptLabel4" editable="0" fontName="Default" fontStyle="Bold"/>
+      <Component type="ScriptLabel" id="ScriptLabel7" x="67" y="222" width="15"
+                 height="133" parentComponent="BACKGROUNDS 2" itemColour="179549107"
+                 bgColour="716420019" itemColour2="4278190080" textColour="16777215"
+                 text="ScriptLabel4" editable="0" fontName="Default" fontStyle="Bold"/>
+      <Component type="ScriptLabel" id="ScriptLabel8" x="9" y="222" width="22"
+                 height="133" parentComponent="BACKGROUNDS 2" itemColour="179549107"
+                 bgColour="716420019" itemColour2="4278190080" textColour="16777215"
+                 text="ScriptLabel4" editable="0" fontName="Default" fontStyle="Bold"/>
+      <Component type="ScriptLabel" id="ScriptLabel9" x="41" y="222" width="15"
+                 height="133" parentComponent="BACKGROUNDS 2" itemColour="179549107"
+                 bgColour="716420019" itemColour2="4278190080" textColour="16777215"
+                 text="ScriptLabel4" editable="0" fontName="Default" fontStyle="Bold"/>
+      <Component type="ScriptLabel" id="ScriptLabel20" x="93" y="35" width="14"
+                 height="133" parentComponent="BACKGROUNDS 2" itemColour="179549107"
+                 bgColour="716420019" itemColour2="4278190080" textColour="16777215"
+                 text="ScriptLabel4" editable="0" fontName="Default" fontStyle="Bold"/>
+      <Component type="ScriptLabel" id="ScriptLabel21" x="93" y="222" width="15"
+                 height="133" parentComponent="BACKGROUNDS 2" itemColour="179549107"
+                 bgColour="716420019" itemColour2="4278190080" textColour="16777215"
+                 text="ScriptLabel4" editable="0" fontName="Default" fontStyle="Bold"/>
+    </Component>
+    <Component type="ScriptPanel" id="BACKGROUNDS 3" x="731" y="10" width="187"
+               height="381" parentComponent="MAINPANEL" borderRadius="1" borderSize="1"
+               bgColour="16777215" itemColour="0" itemColour2="10395294" textColour="16777215">
+      <Component type="ScriptLabel" id="ScriptLabel16" x="9" y="75" width="47"
+                 height="302" parentComponent="BACKGROUNDS 3" itemColour="179549107"
+                 bgColour="716420019" itemColour2="4278190080" textColour="16777215"
+                 text="ScriptLabel4" editable="0"/>
+      <Component type="ScriptLabel" id="ScriptLabel17" x="70" y="75" width="32"
+                 height="302" parentComponent="BACKGROUNDS 3" itemColour="179549107"
+                 bgColour="716420019" itemColour2="4278190080" textColour="16777215"
+                 text="ScriptLabel4" editable="0"/>
+      <Component type="ScriptLabel" id="ScriptLabel18" x="151" y="75" width="24"
+                 height="302" parentComponent="BACKGROUNDS 3" itemColour="179549107"
+                 bgColour="716420019" itemColour2="4278190080" textColour="16777215"
+                 text="ScriptLabel4" editable="0"/>
+      <Component type="ScriptLabel" id="ScriptLabel19" x="117" y="75" width="22"
+                 height="302" parentComponent="BACKGROUNDS 3" itemColour="179549107"
+                 bgColour="716420019" itemColour2="4278190080" textColour="16777215"
+                 text="ScriptLabel4" editable="0"/>
+      <Component type="ScriptLabel" id="ScriptLabel1" x="7" y="30" width="173"
+                 height="31" parentComponent="BACKGROUNDS 3" editable="0" textColour="16777215"
+                 bgColour="920246745" itemColour="4286019447"/>
+    </Component>
+    <Component type="ScriptSliderPack" id="LFO3SLIDERS" x="131" y="14" width="595"
+               height="186" itemColour="2445243357" itemColour2="16777215" textColour="1730092831"
+               processorId="FILTERLFO" parentComponent="MAINPANEL" bgColour="1526726656"/>
+    <Component type="ScriptSliderPack" id="LFO3SLIDERS1" x="131" y="202" width="595"
+               height="188" itemColour="2228063033" itemColour2="16777215" textColour="1730092831"
+               processorId="GAINLFO" parentComponent="MAINPANEL" bgColour="1526726656"/>
+    <Component type="ScriptButton" id="FILTER LFO ON" x="104" y="18" width="16"
+               height="16" processorId="FILTERLFO" parameterId="Enabled" parentComponent="MAINPANEL"
+               scaleFactor="0.06" filmstripImage="{PROJECT_FOLDER}keys buttons 04a.png"
+               isPluginParameter="1" pluginParameterName="FILTERMATE ON/OFF"/>
+    <Component type="ScriptSlider" id="FILTER LFO FREQUENCY" x="11" y="40" style="Vertical"
+               width="28" height="140" processorId="FILTERLFO" parameterId="Frequency"
+               mode="TempoSync" max="18" stepSize="1" middlePosition="9" parentComponent="MAINPANEL"
+               itemColour="2843299211" bgColour="1036301968" itemColour2="434352561"
+               textColour="16777215" showValuePopup="Right" showTextBox="0"
+               isPluginParameter="1" pluginParameterName="FILTERMATE TIME"/>
+    <Component type="ScriptSlider" id="FILTER LFO SMOOTH" x="45" y="40" style="Vertical"
+               width="20" height="140" showValuePopup="Right" processorId="FILTERLFO"
+               parameterId="SmoothingTime" max="1000" middlePosition="500" showTextBox="0"
+               parentComponent="MAINPANEL" bgColour="1036301968" itemColour="2843299211"
+               itemColour2="434352561" textColour="16777215"/>
+    <Component type="ScriptSlider" id="FILTER LFO PHASE" x="71" y="40" style="Vertical"
+               width="20" height="140" showValuePopup="Right" processorId="FILTERLFO"
+               parameterId="PhaseOffset" mode="NormalizedPercentage" suffix="%"
+               middlePosition="0.5" showTextBox="0" parentComponent="MAINPANEL"
+               bgColour="1036301968" itemColour="2843299211" itemColour2="434352561"
+               textColour="16777215"/>
+    <Component type="ScriptSlider" id="FILTER LFO SMOOTH1" x="97" y="40" style="Vertical"
+               width="20" height="140" showValuePopup="Right" processorId="FILTERLFO"
+               parameterId="FadeIn" max="10000" middlePosition="500" showTextBox="0"
+               parentComponent="MAINPANEL" bgColour="1036301968" itemColour="2843299211"
+               itemColour2="434352561" textColour="16777215" mode="Time"/>
+    <Component type="ScriptButton" id="FILTER LFO LOOP" x="13" y="183" width="16"
+               height="16" processorId="FILTERLFO" parameterId="LoopEnabled"
+               parentComponent="MAINPANEL" scaleFactor="0.07" filmstripImage="{PROJECT_FOLDER}keys buttons 04a.png"
+               isPluginParameter="1" pluginParameterName="FILTERMATE LOOP ON/OFF"/>
+    <Component type="ScriptButton" id="FILTER LFO KEYTRIGGER" x="64" y="183"
+               width="16" height="16" processorId="FILTERLFO" parameterId="Legato"
+               parentComponent="MAINPANEL" scaleFactor="0.07" filmstripImage="{PROJECT_FOLDER}keys buttons 04a.png"
+               text="FILTER LFO KTRIG"/>
+    <Component type="ScriptButton" id="GAIN LFO ON" x="102" y="206" width="16"
+               height="16" processorId="GAINLFO" parameterId="Enabled" parentComponent="MAINPANEL"
+               scaleFactor="0.06" filmstripImage="{PROJECT_FOLDER}keys buttons 04a.png"
+               isPluginParameter="1" pluginParameterName="VOLUMATE ON/OFF"/>
+    <Component type="ScriptButton" id="GAIN LFO LOOP" x="13" y="372" width="16"
+               height="16" processorId="GAINLFO" parameterId="LoopEnabled" parentComponent="MAINPANEL"
+               scaleFactor="0.07" filmstripImage="{PROJECT_FOLDER}keys buttons 04a.png"
+               isPluginParameter="1" pluginParameterName="VOLUMATE LOOP ON/OFF"/>
+    <Component type="ScriptSlider" id="GAIN LFO SMOOTH" x="45" y="229" style="Vertical"
+               width="20" height="140" processorId="GAINLFO" parameterId="SmoothingTime"
+               mode="Time" max="10000" stepSize="1" suffix=" ms" middlePosition="500"
+               showValuePopup="Right" showTextBox="0" parentComponent="MAINPANEL"
+               bgColour="1036301968" itemColour2="434352561" textColour="16777215"
+               itemColour="3346552105"/>
+    <Component type="ScriptSlider" id="GAIN LFO PHASE" x="71" y="229" style="Vertical"
+               width="20" height="140" processorId="GAINLFO" parameterId="PhaseOffset"
+               mode="NormalizedPercentage" suffix="%" middlePosition="0.5" showValuePopup="Right"
+               showTextBox="0" parentComponent="MAINPANEL" bgColour="1036301968"
+               itemColour2="434352561" textColour="16777215" itemColour="3346552105"/>
+    <Component type="ScriptSlider" id="GAIN LFO FREQUENCY" x="11" y="229" style="Vertical"
+               width="28" height="140" processorId="GAINLFO" parameterId="Frequency"
+               mode="TempoSync" max="18" stepSize="1" middlePosition="9" parentComponent="MAINPANEL"
+               bgColour="1036301968" itemColour2="434352561" textColour="16777215"
+               itemColour="3346552105" showValuePopup="Right" isPluginParameter="1"
+               pluginParameterName="VOLUMATE TIME"/>
+    <Component type="ScriptSlider" id="GAIN LFO FADE" x="97" y="229" style="Vertical"
+               width="20" height="140" processorId="GAINLFO" parameterId="FadeIn"
+               mode="Time" max="1000" stepSize="1" suffix=" ms" middlePosition="500"
+               showValuePopup="Right" showTextBox="0" parentComponent="MAINPANEL"
+               bgColour="1036301968" itemColour2="434352561" textColour="16777215"
+               itemColour="3346552105"/>
+    <Component type="ScriptButton" id="GAIN LFO KEYTRIGGER" x="64" y="372" width="16"
+               height="16" processorId="GAINLFO" parameterId="Legato" parentComponent="MAINPANEL"
+               scaleFactor="0.07" filmstripImage="{PROJECT_FOLDER}keys buttons 04a.png"
+               text="GAIN LFO KTRIG"/>
+    <Component type="ScriptComboBox" id="FilterSelect" x="760" y="44" width="148"
+               height="25" parentComponent="MAINPANEL" bgColour="654311424"
+               itemColour="1481321806" itemColour2="4278190080" textColour="4287269514"
+               fontSize="14" fontStyle="Bold" items="&#10;1 POLE LP&#10;1 POLE HP&#10;SVF LP&#10;SVF HP&#10;BIQUAD LP&#10;BIQUAD HP&#10;BIQUAD LP REZ&#10;LADDER 4 POLE&#10;LO SHELF EQ&#10;HI SHELF EQ&#10;PEAK EQ&#10;ALLPASS&#10;RINGMOD"
+               max="13"/>
+    <Component type="ScriptLabel" id="FILTER label" x="735" y="16" parentComponent="MAINPANEL"
+               width="179" height="18" text="F I L T E R " bgColour="1989827507"
+               fontName="Calibri" fontStyle="Regular" fontSize="18" enabled="0"
+               editable="0" itemColour="4280948013" textColour="4292269782"/>
+    <Component type="ScriptButton" id="FILTER ON" x="742" y="49" width="16"
+               height="16" processorId="FILTER" parameterId="Enabled" parentComponent="MAINPANEL"
+               scaleFactor="0.07" filmstripImage="{PROJECT_FOLDER}keys buttons 04a.png"
+               isPluginParameter="1" pluginParameterName="FILTER ON/OFF"/>
+    <Component type="ScriptSlider" id="FILTER FREQUENCY" x="738" y="79" style="Vertical"
+               width="55" height="311" processorId="FILTER" parameterId="Frequency"
+               mode="Frequency" min="20" max="20000" stepSize="1" suffix=" Hz"
+               middlePosition="1500" parentComponent="MAINPANEL" isMetaParameter="1"
+               bgColour="1036301968" itemColour="3261480056" showValuePopup="Left"
+               showTextBox="0" itemColour2="434352561" isPluginParameter="1"
+               pluginParameterName="FILTER FREQUENCY">
+      <Component type="ScriptLabel" id="FLFO - TIME2" x="15" y="164" parentComponent="FILTER FREQUENCY"
+                 width="25" height="140" text="F R E Q U E N C Y" editable="0"
+                 multiline="1" enabled="0" fontSize="11" fontStyle="Bold" alignment="centredBottom"
+                 fontName="Default"/>
+      <Component type="ScriptLabel" id="FLFO - TIME9" x="11" y="162" parentComponent="FILTER FREQUENCY"
+                 width="25" height="140" text="F R E Q U E N C Y" editable="0"
+                 multiline="1" enabled="0" fontSize="11" fontStyle="Bold" textColour="1822860966"
+                 alignment="centredBottom" fontName="Default"/>
+    </Component>
+    <Component type="ScriptSlider" id="FILTER RESONANCE" x="799" y="79" style="Vertical"
+               width="40" height="311" processorId="FILTER" parameterId="Q"
+               min="0.3" max="8" parentComponent="MAINPANEL" mode="Discrete"
+               middlePosition="0.5" bgColour="1036301968" itemColour="3261480056"
+               showValuePopup="Left" showTextBox="0" itemColour2="434352561"
+               isPluginParameter="1" pluginParameterName="FILTER RESONANCE">
+      <Component type="ScriptLabel" id="FLFO - TIME3" x="7" y="164" parentComponent="FILTER RESONANCE"
+                 width="25" height="140" text="R E S O N A N C E" editable="0"
+                 multiline="1" alignment="centredBottom" enabled="0" fontSize="11"
+                 fontStyle="Bold" fontName="Default"/>
+      <Component type="ScriptLabel" id="FLFO - TIME8" x="3" y="162" parentComponent="FILTER RESONANCE"
+                 width="25" height="140" text="R E S O N A N C E" editable="0"
+                 multiline="1" alignment="centredBottom" enabled="0" fontSize="11"
+                 fontStyle="Bold" textColour="1822860966" fontName="Default"/>
+    </Component>
+    <Component type="ScriptSlider" id="FILTER GAIN" x="881" y="79" style="Vertical"
+               width="30" height="311" processorId="FILTER" parameterId="Gain"
+               min="-18" max="18" parentComponent="MAINPANEL" bgColour="1036301968"
+               itemColour="3261480056" showValuePopup="Left" showTextBox="0"
+               itemColour2="434352561" isPluginParameter="1" pluginParameterName="FILTER GAIN">
+      <Component type="ScriptLabel" id="FLFO - TIME5" x="5" y="164" parentComponent="FILTER GAIN"
+                 width="20" height="140" text="G A I N" editable="0" multiline="1"
+                 alignment="centredBottom" enabled="0" fontSize="11" fontStyle="Bold"
+                 fontName="Default"/>
+      <Component type="ScriptLabel" id="FLFO - TIME6" x="1" y="162" parentComponent="FILTER GAIN"
+                 width="20" height="140" text="G A I N" editable="0" multiline="1"
+                 alignment="centredBottom" enabled="0" fontSize="11" fontStyle="Bold"
+                 textColour="1822860966" fontName="Default"/>
+    </Component>
+    <Component type="ScriptSlider" id="FILTER BIPOLAR" x="845" y="79" style="Vertical"
+               width="30" height="311" processorId="FILTER" parameterId="BipolarIntensity"
+               min="-1" parentComponent="MAINPANEL" bgColour="1036301968" itemColour="3261480056"
+               showValuePopup="Left" showTextBox="0" itemColour2="434352561"
+               isPluginParameter="1" pluginParameterName="FILTER BIPOLAR">
+      <Component type="ScriptLabel" id="FLFO - TIME4" x="5" y="164" parentComponent="FILTER BIPOLAR"
+                 width="20" height="140" text="B I P O L A R" editable="0" multiline="1"
+                 alignment="centredBottom" enabled="0" fontSize="11" fontStyle="Bold"
+                 fontName="Default"/>
+      <Component type="ScriptLabel" id="FLFO - TIME7" x="1" y="162" parentComponent="FILTER BIPOLAR"
+                 width="20" height="140" text="B I P O L A R" editable="0" multiline="1"
+                 alignment="centredBottom" enabled="0" fontSize="11" fontStyle="Bold"
+                 textColour="1822860966" fontName="Default"/>
+    </Component>
+    <Component type="ScriptLabel" id="LABELS1" x="9" y="11" width="188" height="382"
+               textColour="16777215" text="ScriptLabel" editable="0" parentComponent="MAINPANEL"
+               enabled="0">
+      <Component type="ScriptLabel" id="FLFO LOOP Label" x="0" y="2" parentComponent="LABELS1"
+                 width="110" height="186" text="" itemColour="4037058720" enabled="0"
+                 editable="0" bgColour="742026882"/>
+      <Component type="ScriptLabel" id="FLFO LOOP Label1" x="0" y="190" parentComponent="LABELS1"
+                 width="110" height="188" text="" itemColour="4037058720" enabled="0"
+                 editable="0" bgColour="742026882"/>
+      <Component type="ScriptLabel" id="filtermator" x="1" y="4" parentComponent="LABELS1"
+                 width="108" height="18" text="FILTERMATE" bgColour="1774154717"
+                 fontName="Default" fontStyle="Bold" fontSize="16" enabled="0"
+                 editable="0" itemColour="4283835742" alignment="left" textColour="4292269782"/>
+      <Component type="ScriptLabel" id="volumator" x="1" y="192" parentComponent="LABELS1"
+                 width="108" height="18" text="VOLUMATE" bgColour="1707969337"
+                 fontName="Default" fontStyle="Bold" fontSize="16" enabled="0"
+                 editable="0" itemColour="4281277441" alignment="left" textColour="4292269782"/>
+      <Component type="ScriptLabel" id="FLFO - SMOOTH5" x="93" y="253" parentComponent="LABELS1"
+                 width="17" height="100" text="F A D E" editable="0" multiline="1"
+                 alignment="centredBottom" enabled="0" fontSize="11" fontStyle="Bold"
+                 textColour="805306367" fontName="Default"/>
+      <Component type="ScriptLabel" id="FLFO - PHASE5" x="67" y="253" parentComponent="LABELS1"
+                 width="17" height="100" text="P H A S E " editable="0" multiline="1"
+                 alignment="centredBottom" enabled="0" fontSize="11" fontStyle="Bold"
+                 textColour="805306367" fontName="Default"/>
+      <Component type="ScriptLabel" id="FLFO - SMOOTH7" x="41" y="253" parentComponent="LABELS1"
+                 width="17" height="100" text="S M O O T H" editable="0" multiline="1"
+                 alignment="centredBottom" enabled="0" fontSize="11" fontStyle="Bold"
+                 textColour="805306367" fontName="Default"/>
+      <Component type="ScriptLabel" id="FLFO - TIME10" x="10" y="253" parentComponent="LABELS1"
+                 width="18" height="100" text="T I M E" editable="0" multiline="1"
+                 alignment="centredBottom" enabled="0" fontSize="11" fontStyle="Bold"
+                 textColour="805306367" fontName="Default"/>
+      <Component type="ScriptLabel" id="FLFO - FADE IN1" x="94" y="64" parentComponent="LABELS1"
+                 width="17" height="100" text="F A D E  " editable="0" multiline="1"
+                 alignment="centredBottom" enabled="0" fontSize="11" fontStyle="Bold"
+                 textColour="805306367" fontName="Default"/>
+      <Component type="ScriptLabel" id="FLFO - SMOOTH9" x="41" y="64" parentComponent="LABELS1"
+                 width="17" height="100" text="S M O O T H" editable="0" multiline="1"
+                 alignment="centredBottom" enabled="0" fontSize="11" fontStyle="Bold"
+                 textColour="805306367" fontName="Default"/>
+      <Component type="ScriptLabel" id="FLFO - PHASE7" x="67" y="64" parentComponent="LABELS1"
+                 width="17" height="100" text="P H A S E " editable="0" multiline="1"
+                 alignment="centredBottom" enabled="0" fontSize="11" fontStyle="Bold"
+                 textColour="805306367" fontName="Default"/>
+      <Component type="ScriptLabel" id="FLFO - TIME11" x="10" y="64" parentComponent="LABELS1"
+                 width="18" height="100" text="T I M E" editable="0" multiline="1"
+                 alignment="centredBottom" enabled="0" fontSize="11" fontStyle="Bold"
+                 textColour="805306367" fontName="Default"/>
+      <Component type="ScriptLabel" id="FLFO - TIME" x="7" y="66" parentComponent="LABELS1"
+                 width="18" height="100" text="T I M E" editable="0" multiline="1"
+                 alignment="centredBottom" enabled="0" fontSize="11" fontStyle="Bold"
+                 fontName="Default"/>
+      <Component type="ScriptLabel" id="FLFO - SMOOTH" x="38" y="66" parentComponent="LABELS1"
+                 width="17" height="100" text="S M O O T H" editable="0" multiline="1"
+                 alignment="centredBottom" enabled="0" fontSize="11" fontStyle="Bold"
+                 fontName="Default"/>
+      <Component type="ScriptLabel" id="FLFO - PHASE" x="64" y="66" parentComponent="LABELS1"
+                 width="17" height="100" text="P H A S E " editable="0" multiline="1"
+                 alignment="centredBottom" enabled="0" fontSize="11" fontStyle="Bold"
+                 fontName="Default"/>
+      <Component type="ScriptLabel" id="FLFO - FADE IN" x="91" y="66" parentComponent="LABELS1"
+                 width="17" height="100" text="F A D E  " editable="0" multiline="1"
+                 alignment="centredBottom" enabled="0" fontSize="11" fontStyle="Bold"
+                 fontName="Default"/>
+      <Component type="ScriptLabel" id="FLFO - TIME1" x="7" y="255" parentComponent="LABELS1"
+                 width="18" height="100" text="T I M E" editable="0" multiline="1"
+                 alignment="centredBottom" enabled="0" fontSize="11" fontStyle="Bold"
+                 fontName="Default"/>
+      <Component type="ScriptLabel" id="FLFO - SMOOTH2" x="38" y="255" parentComponent="LABELS1"
+                 width="17" height="100" text="S M O O T H" editable="0" multiline="1"
+                 alignment="centredBottom" enabled="0" fontSize="11" fontStyle="Bold"
+                 fontName="Default"/>
+      <Component type="ScriptLabel" id="FLFO - PHASE2" x="64" y="255" parentComponent="LABELS1"
+                 width="17" height="100" text="P H A S E " editable="0" multiline="1"
+                 alignment="centredBottom" enabled="0" fontSize="11" fontStyle="Bold"
+                 fontName="Default"/>
+      <Component type="ScriptLabel" id="FLFO - SMOOTH4" x="90" y="255" parentComponent="LABELS1"
+                 width="17" height="100" text="F A D E" editable="0" multiline="1"
+                 alignment="centredBottom" enabled="0" fontSize="11" fontStyle="Bold"
+                 fontName="Default"/>
+      <Component type="ScriptLabel" id="FLFO on label" x="13" y="172" parentComponent="LABELS1"
+                 width="40" height="14" text="LOOP" editable="0" multiline="1"
+                 alignment="centredBottom" enabled="0" fontSize="11" fontStyle="Bold"
+                 textColour="4127195135" fontName="Default"/>
+      <Component type="ScriptLabel" id="FLFO on label1" x="13" y="361" parentComponent="LABELS1"
+                 width="40" height="14" text="LOOP" editable="0" multiline="1"
+                 alignment="centredBottom" enabled="0" fontSize="11" fontStyle="Bold"
+                 textColour="4127195135" fontName="Default"/>
+      <Component type="ScriptLabel" id="FLFO on label2" x="63" y="172" parentComponent="LABELS1"
+                 width="50" height="14" text="K.TRIG." editable="0" multiline="1"
+                 alignment="centredBottom" enabled="0" fontSize="11" fontStyle="Bold"
+                 textColour="4127195135" fontName="Default"/>
+      <Component type="ScriptLabel" id="FLFO on label3" x="63" y="361" parentComponent="LABELS1"
+                 width="50" height="14" text="K.TRIG." editable="0" multiline="1"
+                 alignment="centredBottom" enabled="0" fontSize="11" fontStyle="Bold"
+                 textColour="4127195135" fontName="Default"/>
+    </Component>
+  </Component>
+  <Component type="ScriptPanel" id="LOWPANEL" x="1" y="401" width="930" height="89"
+             borderSize="3" borderRadius="3" itemColour2="865446583" bgColour="16777215"
+             itemColour="4278190080" textColour="754974719">
+    <Component type="ScriptLabel" id="FLFO LOOP Label2" x="19" y="5" parentComponent="LOWPANEL"
+               width="92" height="26" text="" itemColour="3802177696" enabled="0"
+               editable="0" bgColour="2387899262" itemColour2="4279308561"/>
+    <Component type="ScriptLabel" id="FLFO LOOP Label3" x="19" y="34" parentComponent="LOWPANEL"
+               width="92" height="26" text="" itemColour="4037058720" enabled="0"
+               editable="0" bgColour="742026882"/>
+    <Component type="ScriptLabel" id="bckg01" x="139" y="4" width="284" height="16"
+               parentComponent="LOWPANEL" itemColour="179549107" bgColour="716420019"
+               itemColour2="4278190080" textColour="16777215" text="ScriptLabel4"/>
+    <Component type="ScriptLabel" id="bckg02" x="431" y="4" width="284" height="16"
+               parentComponent="LOWPANEL" itemColour="179549107" bgColour="716420019"
+               itemColour2="4278190080" textColour="16777215" text="ScriptLabel4"/>
+    <Component type="ScriptLabel" id="device name" x="128" y="25" parentComponent="LOWPANEL"
+               width="600" height="40" text="  F   U   N   I   M   A   T   O   R   "
+               fontSize="65" fontName="Default" textColour="460419441" fontStyle="Bold"
+               itemColour2="0" bgColour="201993336" itemColour="542274434"/>
+    <Component type="ScriptFloatingTile" id="WAVEFORM - ANALYSER" x="125" y="30"
+               parentComponent="LOWPANEL" ContentType="AudioAnalyser" bgColour="538463106"
+               itemColour="621192181" itemColour2="2214592512" textColour="16761035"
+               Data="{&#13;&#10;  &quot;ProcessorId&quot;: &quot;ANALYSER&quot;,&#13;&#10;  &quot;Index&quot;: 1&#13;&#10;}"
+               width="604" height="35"/>
+    <Component type="ScriptFloatingTile" id="FILTER WAVE DISPLAY1" x="126" y="32"
+               width="604" height="30" parentComponent="LOWPANEL" ContentType="FilterDisplay"
+               bgColour="3355443" itemColour="1766534478" itemColour2="996821612"
+               Data="{&#13;&#10;  &quot;ProcessorId&quot;: &quot;FILTER&quot;,&#13;&#10;  &quot;Index&quot;: -1&#13;&#10;}"
+               textColour="16777215"/>
+    <Component type="ScriptFloatingTile" id="FILTER WAVE DISPLAY" x="126" y="30"
+               width="604" height="30" parentComponent="LOWPANEL" ContentType="FilterDisplay"
+               bgColour="3355443" itemColour="8141700" itemColour2="2104183404"
+               Data="{&#13;&#10;  &quot;ProcessorId&quot;: &quot;FILTER&quot;,&#13;&#10;  &quot;Index&quot;: -1&#13;&#10;}"
+               textColour="16777215"/>
+    <Component type="ScriptSlider" id="FILTER LFO INTENSITY" x="135" y="5" parentComponent="LOWPANEL"
+               style="Horizontal" height="20" width="290" processorId="FILTERLFO"
+               parameterId="Intensity" middlePosition="0.5" isPluginParameter="1"
+               pluginParameterName="FILTERMATE INTENSITY" bgColour="3292011836"
+               itemColour="4284102750" showTextBox="0" showValuePopup="Below"/>
+    <Component type="ScriptSlider" id="GAIN LFO INTENSITY" x="430" y="5" parentComponent="LOWPANEL"
+               style="Horizontal" height="20" width="290" processorId="GAINLFO"
+               parameterId="Intensity" isPluginParameter="1" pluginParameterName="VOLUMATE INTENSITY"
+               bgColour="3292279069" itemColour="1454474806" showTextBox="0"
+               showValuePopup="Below"/>
+    <Component type="ScriptLabel" id="FM intensity label" x="186" y="6" parentComponent="LOWPANEL"
+               width="188" height="18" text="FILTERMATE INTENSITY" fontName="Calibri"
+               fontStyle="Regular" fontSize="18" editable="0" itemColour="3087361"
+               itemColour2="1118481" enabled="0" textColour="4289835441"/>
+    <Component type="ScriptLabel" id="VM intensity label" x="475" y="6" parentComponent="LOWPANEL"
+               width="188" height="18" text="VOLUMATE INTENSITY" fontName="Calibri"
+               fontStyle="Regular" fontSize="18" editable="0" itemColour="3087361"
+               itemColour2="1118481" enabled="0" textColour="4289835441"/>
+    <Component type="ScriptLabel" id="undercover right" x="729" y="1" width="203"
+               height="95" parentComponent="LOWPANEL" bgColour="1159672904"
+               itemColour="4280758070" textColour="16777215"/>
+    <Component type="ScriptPanel" id="COVER LEFT" x="-1" y="0" width="128" height="93"
+               parentComponent="LOWPANEL" borderRadius="1" bgColour="16777215"
+               itemColour="2516582400" itemColour2="2435921202" textColour="1613507628"
+               borderSize="4"/>
+    <Component type="ScriptPanel" id="COVER RIGHT" x="736" y="-4" width="204"
+               height="97" parentComponent="LOWPANEL" borderRadius="1" bgColour="16777215"
+               itemColour="2516582400" itemColour2="2435921202" textColour="1613507628"
+               borderSize="4"/>
+    <Component type="ScriptPanel" id="ScriptPanel1" x="0" y="-1" width="127"
+               height="67" parentComponent="LOWPANEL" bgColour="1459617791"
+               textColour="1318625425" itemColour="3747702107" itemColour2="922738358"
+               borderRadius="0"/>
+    <Component type="ScriptPanel" id="ScriptPanel2" x="729" y="-1" width="192"
+               height="67" parentComponent="LOWPANEL" bgColour="1459617791"
+               textColour="1318625425" itemColour="3747702107" itemColour2="922738358"
+               borderRadius="0"/>
+    <Component type="ScriptButton" id="LibButton" x="87" y="8" width="29" height="28"
+               parentComponent="LOWPANEL" filmstripImage="{PROJECT_FOLDER}keys buttons 04a.png"
+               scaleFactor="0.1" saveInPreset="0"/>
+    <Component type="ScriptButton" id="AboutButton" x="87" y="36" width="29"
+               height="28" parentComponent="LOWPANEL" filmstripImage="{PROJECT_FOLDER}keys buttons 04a.png"
+               scaleFactor="0.1" saveInPreset="0"/>
+    <Component type="ScriptLabel" id="Label33" x="1" y="4" parentComponent="LOWPANEL"
+               text="LIBRARY" fontName="Default" fontSize="16" fontStyle="Bold"
+               alignment="right" width="80" textColour="4288124823"/>
+    <Component type="ScriptLabel" id="Label34" x="2" y="32" parentComponent="LOWPANEL"
+               text="ABOUT" fontName="Default" fontSize="16" fontStyle="Bold"
+               alignment="right" width="80" textColour="4288124823"/>
+    <Component type="ScriptLabel" id="bckg03" x="737" y="7" width="171" height="18"
+               parentComponent="LOWPANEL" itemColour="179549107" bgColour="716420019"
+               itemColour2="4278190080" textColour="16777215" text="ScriptLabel4"/>
+    <Component type="ScriptLabel" id="bckg04" x="737" y="38" width="171" height="15"
+               parentComponent="LOWPANEL" itemColour="179549107" bgColour="716420019"
+               itemColour2="4278190080" textColour="16777215" text="ScriptLabel4"/>
+    <Component type="ScriptSlider" id="VOLUME" x="736" y="7" parentComponent="LOWPANEL"
+               style="Horizontal" height="22" width="178" processorId="GAINandPAN"
+               parameterId="Gain" middlePosition="0" isPluginParameter="1" pluginParameterName="MASTER VOLUME"
+               bgColour="1036301968" itemColour="1409232944" showTextBox="0"
+               showValuePopup="Above" mode="Decibel" min="-100" max="12" stepSize="0.1"
+               suffix=" dB" itemColour2="434352561"/>
+    <Component type="ScriptSlider" id="IMAGE" x="736" y="38" parentComponent="LOWPANEL"
+               style="Horizontal" height="20" width="178" processorId="GAINandPAN"
+               parameterId="Width" middlePosition="100" isPluginParameter="1"
+               pluginParameterName="MASTER IMAGE" bgColour="1036301968" itemColour="1398259195"
+               showTextBox="0" showValuePopup="Above" max="200" stepSize="1"
+               defaultValue="100" itemColour2="434352561"/>
+    <Component type="ScriptLabel" id="FM intensity label1" x="735" y="9" parentComponent="LOWPANEL"
+               width="188" height="18" text="V O L U M E" fontName="Default"
+               fontStyle="Bold" fontSize="17" editable="0" itemColour="3087361"
+               textColour="4290624957" itemColour2="1118481" enabled="0"/>
+    <Component type="ScriptLabel" id="FM intensity label2" x="736" y="39" parentComponent="LOWPANEL"
+               width="188" height="18" text="I M A G E" fontName="Default" fontStyle="Bold"
+               fontSize="17" editable="0" itemColour="3087361" textColour="4290624957"
+               itemColour2="1118481" enabled="0"/>
+    <Component type="ScriptPanel" id="ABOUT PANEL" x="123" y="-16" width="608"
+               height="90" parentComponent="LOWPANEL" itemColour="4280097836"
+               itemColour2="4278850070" bgColour="16777215" textColour="587202559"
+               borderRadius="0" borderSize="6" visible="0">
+      <Component type="ScriptFloatingTile" id="UI Scaler" x="3" y="16" width="251"
+                 height="59" ContentType="CustomSettings" bgColour="4278190080"
+                 itemColour="4294951115" itemColour2="4294951115" Data="{&#13;&#10;  &quot;Driver&quot;: false,&#13;&#10;  &quot;Device&quot;: false,&#13;&#10;  &quot;Output&quot;: false,&#13;&#10;  &quot;BufferSize&quot;: false,&#13;&#10;  &quot;SampleRate&quot;: false,&#13;&#10;  &quot;GlobalBPM&quot;: false,&#13;&#10;  &quot;StreamingMode&quot;: false,&#13;&#10;  &quot;ScaleFactor&quot;: true,&#13;&#10;  &quot;VoiceAmountMultiplier&quot;: false,&#13;&#10;  &quot;ClearMidiCC&quot;: false,&#13;&#10;  &quot;SampleLocation&quot;: false,&#13;&#10;  &quot;DebugMode&quot;: false,&#13;&#10;  &quot;ScaleFactorList&quot;: [&#13;&#10;    0.5,&#13;&#10;    0.75,&#13;&#10;    1.0,&#13;&#10;    1.25,&#13;&#10;    1.5,&#13;&#10;    2.0&#13;&#10;  ]&#13;&#10;}"
+                 textColour="4284835173" FontSize="11" parentComponent="ABOUT PANEL"/>
+      <Component type="ScriptImage" id="Image1" x="523" y="19" parentComponent="ABOUT PANEL"
+                 fileName="{PROJECT_FOLDER}HISE.png" width="36" height="36"/>
+      <Component type="ScriptLabel" id="Label35" x="227" y="17" parentComponent="ABOUT PANEL"
+                 width="274" height="25" fontName="Default" text="O R C H E S T O O L S | F U N I M A T O R"
+                 fontSize="19" textColour="2678696361" fontStyle="Bold"/>
+      <Component type="ScriptLabel" id="Label36" x="214" y="27" parentComponent="ABOUT PANEL"
+                 width="300" height="30" fontName="Default" text="PATTERN BASED FILTER AND GAIN MODULATOR"
+                 fontSize="15" textColour="2678696361"/>
+      <Component type="ScriptLabel" id="Label37" x="247" y="60" parentComponent="ABOUT PANEL"
+                 width="237" height="20" fontName="Default" text="musictop69.wixsites.com/orchestools"
+                 fontSize="14" multiline="1" editable="0" textColour="2678696361"/>
+      <Component type="ScriptLabel" id="Label38" x="498" y="49" parentComponent="ABOUT PANEL"
+                 width="84" height="38" fontName="Default" text="made with HISE          (http://hise.audio)"
+                 fontSize="12" multiline="1" editable="0" textColour="2678696361"/>
+      <Component type="ScriptLabel" id="Label39" x="246" y="48" parentComponent="ABOUT PANEL"
+                 width="237" height="20" fontName="Default" text=" published under the GPLv3 open source license"
+                 fontSize="14" multiline="1" editable="0" textColour="2678696361"/>
+      <Component type="ScriptLabel" id="cover01" x="100" y="29" width="118" height="34"
+                 parentComponent="ABOUT PANEL" bgColour="2300603524" textColour="0"
+                 itemColour="4284243036" enabled="0" editable="0"/>
+    </Component>
+    <Component type="ScriptLabel" id="Label40" x="127" y="57" parentComponent="LOWPANEL"
+               width="602" height="9" textColour="16777215" itemColour2="4227858431"
+               bgColour="456085604"/>
+  </Component>
+  <Component type="ScriptPanel" id="LIBRARYBROWSER" x="4" y="4" width="913"
+             height="392" bgColour="16777215" itemColour="4280492835" itemColour2="4278190080"
+             borderRadius="1" borderSize="4" textColour="4280690214" visible="0">
+    <Component type="ScriptFloatingTile" id="PRESET BROWSER" x="6" y="6" parentComponent="LIBRARYBROWSER"
+               width="900" height="390" ContentType="PresetBrowser" bgColour="87049548"
+               itemColour="4286346369" itemColour2="16761035" Data="{&#13;&#10;  &quot;ShowSaveButton&quot;: true,&#13;&#10;  &quot;ShowFolderButton&quot;: true,&#13;&#10;  &quot;ShowNotes&quot;: true,&#13;&#10;  &quot;ShowEditButtons&quot;: true,&#13;&#10;  &quot;ShowFavoriteIcon&quot;: true,&#13;&#10;  &quot;NumColumns&quot;: 3&#13;&#10;}"
+               textColour="4287925111"/>
+  </Component>
+</ContentProperties>

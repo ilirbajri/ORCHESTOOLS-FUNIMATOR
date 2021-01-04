@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Preset Version="1.0.0">
+  <Content Processor="Interface">
+    <Control type="ScriptSliderPack" id="LFO3SLIDERS" value="0" data="64......................................................................................."/>
+    <Control type="ScriptSliderPack" id="LFO3SLIDERS1" value="9" data="64....f+35Qg2C..........nYlY7C.....T35Q+.........3O......................................"/>
+    <Control type="ScriptButton" id="FILTER LFO ON" value="0"/>
+    <Control type="ScriptSlider" id="FILTER LFO FREQUENCY" value="0"/>
+    <Control type="ScriptSlider" id="FILTER LFO SMOOTH" value="109.77"/>
+    <Control type="ScriptSlider" id="FILTER LFO PHASE" value="0"/>
+    <Control type="ScriptSlider" id="FILTER LFO SMOOTH1" value="0"/>
+    <Control type="ScriptButton" id="FILTER LFO LOOP" value="0"/>
+    <Control type="ScriptButton" id="FILTER LFO KEYTRIGGER" value="0"/>
+    <Control type="ScriptButton" id="GAIN LFO ON" value="1"/>
+    <Control type="ScriptButton" id="GAIN LFO LOOP" value="1"/>
+    <Control type="ScriptSlider" id="GAIN LFO SMOOTH" value="0"/>
+    <Control type="ScriptSlider" id="GAIN LFO PHASE" value="0"/>
+    <Control type="ScriptSlider" id="GAIN LFO FREQUENCY" value="11"/>
+    <Control type="ScriptSlider" id="GAIN LFO FADE" value="0"/>
+    <Control type="ScriptButton" id="GAIN LFO KEYTRIGGER" value="0"/>
+    <Control type="ScriptComboBox" id="FilterSelect" value="9"/>
+    <Control type="ScriptButton" id="FILTER ON" value="0"/>
+    <Control type="ScriptSlider" id="FILTER FREQUENCY" value="20"/>
+    <Control type="ScriptSlider" id="FILTER RESONANCE" value="0.3"/>
+    <Control type="ScriptSlider" id="FILTER GAIN" value="-18"/>
+    <Control type="ScriptSlider" id="FILTER BIPOLAR" value="-1"/>
+    <Control type="ScriptSlider" id="FILTER LFO INTENSITY" value="0"/>
+    <Control type="ScriptSlider" id="GAIN LFO INTENSITY" value="1"/>
+    <Control type="ScriptSlider" id="VOLUME" value="4.2"/>
+    <Control type="ScriptSlider" id="IMAGE" value="100"/>
+  </Content>
+  <MidiAutomation/>
+  <MPEData Enabled="0"/>
+</Preset>
