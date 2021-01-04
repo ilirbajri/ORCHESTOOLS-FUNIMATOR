@@ -1,8 +1,7 @@
 # ORCHESTOOLS-FUNIMATOR
-Orchestools FUNimator - pattern based LFO filter and gain modulator
+A pattern based LFO filter and gain modulator
 
-HISE Project Files
-
+          //HISE Project Files
 FUNIMATOR | rhythmic colors ...
 
 A pattern based LFO rhythmic filter and gain modulator plugin. Add motion and colors to your samples, tracks and synths. Draw patterns, control intensities with automation, use it as a filter with 13 modes or as a audio slicer and trigger the patterns with MIDI notes.
